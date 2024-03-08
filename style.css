@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../public/images/sale_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.sale{
+  margin-right: 20px;
+}
+
+.title{
+  font-family: "Dancing Script", cursive;
+    font-size: 100px;
+    color:#ff4d6d;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+  }
+
+
+.para{
+    color: #ff9500;
+    font-family: "Satisfy", cursive;  
+      font-size: 30px;
+     text-align:center;
+    justify-content: center;
+    padding-top: 40px; 
+    min-width: 200px;
+}
+.sale{
+  position: absolute;
+  top: 20%;
+  left: 0%;
+}
+.deadline{
+  font-family: "Satisfy", cursive;
+    position: absolute;
+    bottom: 30%;
+    left: 25%;
+    color:#ff4d6d;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.countdown {
+    display: flex;
+    position: absolute;
+    bottom: 15%;
+    left: 40%;
+    font-weight: 400;
+  }
+  .countdown-format {
+    color: #ff9500;
+    font-family: "Satisfy", cursive;
+    font-weight: bold;
+    margin-right: 1rem;
+    width: 5rem;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 40px;
+
+  }
+  .name {
+    display: block;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
